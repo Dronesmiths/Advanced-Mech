@@ -255,7 +255,7 @@ nav a.active {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background-image: url('/images/hvac-hero-v2.webp');
+    background-image: url('/images/hvac-main-hero.png');
 }
 
 .hero-video-bg {
