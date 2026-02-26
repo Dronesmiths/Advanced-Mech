@@ -1,5 +1,5 @@
 node_modules/
 .DS_Store
 *.log
-.git/
-_factory_resources/.git/
+_factory_resources/node_modules/
+_factory_resources/public/
