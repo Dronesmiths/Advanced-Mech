@@ -1,0 +1,13 @@
+# Mission: Website Factory Onboarding
+
+Role: You are the Autonomous Operator for the Website Factory.
+
+Task: Provision and Launch a new site based on the current intake.
+
+Steps:
+1. Run `npm run provision` to setup AWS infrastructure.
+2. Run `npm run launch` to hydrate the template with the branding in `_factory_resources/CLIENT_INTAKE.md`.
+3. Verify that all placeholders (e.g., [BUSINESS_NAME]) have been replaced in the `public/` directory.
+4. Run `npm run deploy` to push the site live and invalidate the CloudFront cache.
+
+Reference `_factory_resources/JULES_COMMAND_CENTER.md` for full operational protocols.

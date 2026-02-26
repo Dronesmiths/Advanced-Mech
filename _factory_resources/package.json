@@ -1,0 +1,23 @@
+{
+    "type": "module",
+    "scripts": {
+        "knowledge:scan": "node scripts/detect-knowledge.js",
+        "knowledge:validate": "node scripts/validate-knowledge.js",
+        "knowledge:render": "node scripts/render-html.js",
+        "knowledge:schema": "node scripts/generate-schema.js",
+        "knowledge:chunk": "node scripts/chunk-knowledge.js",
+        "knowledge:link": "node scripts/auto-linker.js",
+        "knowledge:vector": "node scripts/vector-export.js",
+        "knowledge:sonar": "node scripts/sonar.js",
+        "knowledge:radar": "node scripts/radar.js",
+        "knowledge:verify": "node scripts/hull-integrity.js",
+        "launch": "node scripts/launch-client.js",
+        "provision": "node scripts/provision-aws.js",
+        "deploy": "chmod +x scripts/deploy.sh && ./scripts/deploy.sh",
+        "knowledge:build": "npm run knowledge:scan && npm run knowledge:validate && npm run knowledge:render && npm run knowledge:schema && npm run knowledge:chunk && npm run knowledge:link && npm run knowledge:vector && npm run knowledge:radar && npm run knowledge:sonar && npm run knowledge:verify"
+    },
+    "dependencies": {
+        "gray-matter": "^4.0.3",
+        "marked": "^12.0.0"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "sample-topic": [
+    "# [PRIMARY_TITLE]\n\nThis is a canonical knowledge file for the [INDUSTRY] industry.",
+    "[SECTION_1]\n- [DETAIL_1]\n- [DETAIL_2]",
+    "[SECTION_2]\n- [TECHNICAL_REQUIREMENT_1]\n- [TECHNICAL_REQUIREMENT_2]"
+  ]
+}
